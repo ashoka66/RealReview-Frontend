@@ -1,12 +1,42 @@
-# React + Vite
+# 🏠 RealReview Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **React.js frontend** for **RealReview** — a full-stack real estate listing and review platform that allows users to upload property images and rate them. Admins can review and approve uploaded images before they appear on the platform.
 
-Currently, two official plugins are available:
+> 🔗 Backend Repository: [RealReview Backend (Java + Spring Boot)](https://github.com/ashoka66/RealReview)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Key Features
+
+- 📤 Upload real estate images
+- ✅ Admin approval before images go live
+- ⭐ Rate properties (ratings stored via backend)
+- 🔗 Connects to Java Spring Boot REST APIs
+- ⚡ Built using **Vite** for lightning-fast dev server
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer         | Tech Used                                |
+|---------------|----------------------------------        |
+| Frontend      | React.js, Axios                          |
+| Styling       | CSS (optionally Tailwind or Bootstrap)   |
+| Dev Tools     | Vite, npm                                |
+| Backend API   | Java Spring Boot REST API                |
+| Communication | REST over HTTP                           |
+
+---
+
+## 📦 Folder Structure
+real-review-frontend/
+├── public/ # Static files
+├── src/
+│ ├── App.jsx # Main app component
+│ ├── UploadImage.jsx # Image upload component
+│ ├── index.css # Styles
+│ └── main.jsx # App entry point
+├── package.json
+├── vite.config.js
+└── README.md
+
